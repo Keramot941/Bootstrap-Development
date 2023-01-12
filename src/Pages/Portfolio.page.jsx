@@ -1,4 +1,5 @@
 import React from 'react'
+import Breadcrumb from '../Component/Breadcrums'
 import Portfolio from '../Component/Portfolio'
 
 const PortfolioPage = () => {
@@ -7,7 +8,7 @@ const PortfolioPage = () => {
     debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.`
   return (
     <div>
-        <Breadcrumb title={"Portfolio"} description="pageDescription"/>
+        <Breadcrumb title="Portfolio" description="pageDescription"/>
         <Portfolio/>
     </div>
   )
